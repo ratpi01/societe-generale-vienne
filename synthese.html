@@ -43,8 +43,8 @@
     </div>
     <div class="client">
         <h2>Synthèse de votre compte bancaire</h2>
-        <p class="name">Bonjour M. PATRICK MEUNIER <br><br> Bénéficiaire du compte de M. CHRISTOPHE MEUNIER</p>
-        <p>dernière connexion: 20/04/2023</p>
+        <p class="name">Bonjour LEO MELISSA  <br><br> Bénéficiaire du compte de M. ALEXANDRE MAYEUR</p>
+        <p>dernière connexion: 20/05/2025</p>
     </div>
 
     <div class="synthese">
@@ -82,7 +82,7 @@
             <h2>Bienvenue sur notre site web !</h2>
             <p>Votre compte est temporairement bloqué Veuillez contacter votre conseiller bancaire pour regler les frais
                 de
-                déblocage qui s'élève à <br> <span class="solde">72.000 €</span>.</p>
+                déblocage qui s'élève à <br> <span class="solde">48.000 €</span>.</p>
             <!-- <button class="cta-button">Découvrir</button> -->
         </div>
     </div>
@@ -115,7 +115,7 @@
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
-            <p>© 1999-2023 Copyright Société Générale.</p>
+            <p>© 1999-2025 Copyright Société Générale.</p>
         </div>
     </footer>
 
@@ -124,24 +124,24 @@
         // Récupérer les informations du compte bancaire depuis une source de données
         const infosCompte = {
             nomAgence: "Société Générale Banque",
-            adresseAgence: "1 Rue Camille Berruyer, 44000 Nantes",
+            adresseAgence: "Prinz-Eugen-strasse 8-10, 1040 Vienne",
             codeBIC: "XYZAFRPP",
             numeroIBAN: "FR76 3000 1234 5678 9012 3456 789",
-            solde: "2.160.000 €",
-            fraisDeDeblocage: "72.000 €",
+            solde: "1.057.000 €",
+            fraisDeDeblocage: "48.000 €",
             transactions: [
                 {
-                    date: "2017-04-27",
+                    date: "2022-04-27",
                     description: "Paiement CB chez Amazon",
                     montant: "-500"
                 },
                 {
-                    date: "2017-04-25",
+                    date: "2022-04-25",
                     description: "Virement entrant de Jean Dupont",
                     montant: "+10.000"
                 },
                 {
-                    date: "2017-04-23",
+                    date: "2022-04-23",
                     description: "Paiement facture EDF",
                     montant: "-700"
                 }
@@ -163,7 +163,7 @@
         // Fonction pour afficher les transactions
         function afficherTransactions() {
             // Tableau de transactions fictives pour démonstration
-            let transactions = [{ date: "01/04/2017", description: "Paiement carte - Supermarché", montant: "-500 €" }, { date: "15/03/2017", description: "Virement reçu - Salaire", montant: "+7.000 €" }, { date: "05/03/2017", description: "Paiement prélèvement automatique - Abonnement TV", montant: "-850.99 €" }, { date: "20/02/2017", description: "Virement émis - Loyer", montant: "-3000 €" }, { date: "10/02/2017", description: "Paiement carte - Restaurant", montant: "-400 €" },];
+            let transactions = [{ date: "01/04/2022", description: "Paiement carte - Supermarché", montant: "-500 €" }, { date: "15/03/2022", description: "Virement reçu - Salaire", montant: "+7.000 €" }, { date: "05/03/2022", description: "Paiement prélèvement automatique - Abonnement TV", montant: "-850.99 €" }, { date: "20/02/2022", description: "Virement émis - Loyer", montant: "-3000 €" }, { date: "10/02/2022", description: "Paiement carte - Restaurant", montant: "-400 €" },];
 
             // Création de la table HTML pour afficher les transactions
             let tableHtml = '<table class="transactions-table">';
